@@ -23,19 +23,20 @@ namespace _05_Foutmelding_TahaM
             try
             {
                 Console.Write("Geef een natuurlijk getal: ");
+                // Stap 2: Zet getal om naar juiste datatype
                 _getal = int.Parse(Console.ReadLine());
 
                 Console.Clear();
 
-                Console.WriteLine("Getal ontvangen");
+                // Stap 3: Foutmelding tonen OF bevestiging tonen
+                Console.WriteLine($"U Fag volgende getal in: {_getal.ToString()}");
             }
             catch (Exception)
             {
                 Console.Clear();
                 Console.WriteLine("Er ging iets fout. ");
             }
-            // Stap 2: Zet getal om naar juiste datatype
-            // Stap 4: Foutmelding tonen OF bevestiging tonen
+
 
 
         }
