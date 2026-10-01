@@ -15,9 +15,27 @@ namespace _05_Foutmelding_TahaM
             // Project: Foutmelding 
 
             // Velden
-
+            int _getal = 0;
 
             // Programma
+
+            // Stap 1: vraag een natuurlijk getal
+            try
+            {
+                Console.Write("Geef een natuurlijk getal: ");
+                _getal = int.Parse(Console.ReadLine());
+
+                Console.Clear();
+
+                Console.WriteLine("Getal ontvangen");
+            }
+            catch (Exception)
+            {
+                Console.Clear();
+                Console.WriteLine("Er ging iets fout. ");
+            }
+            // Stap 2: Zet getal om naar juiste datatype
+            // Stap 4: Foutmelding tonen OF bevestiging tonen
 
 
         }
