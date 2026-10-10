@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD59A859-3102-4802-8376-BDF7011DE36D}</ProjectGuid>
+    <ProjectGuid>{0F1F4AFE-77DA-4F86-AC4A-361E232DA006}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_08_Geen100_TahaM</RootNamespace>
     <AssemblyName>08_Geen100_TahaM</AssemblyName>
