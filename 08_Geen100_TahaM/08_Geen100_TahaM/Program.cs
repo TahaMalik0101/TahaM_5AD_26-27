@@ -38,10 +38,13 @@ namespace _08_Geen100_TahaM
             //    Stap 3: Het getal was groter dan 100
             if (_getal < _honderd)
             {
-
+                Console.WriteLine("Uw getal is onder de 100");
             }
             //    Stap 4: het getal is kleiner dan 100
+            else if (_getal > _honderd)
+            {
 
+            }
             //    Stap 5: het getal was 100(fout)
             
             // Stap 6: Antwoord weergeven
