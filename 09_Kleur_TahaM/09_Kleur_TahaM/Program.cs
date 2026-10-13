@@ -16,7 +16,7 @@ namespace _09_Kleur_TahaM
             // Project: Kleur
 
             // Velden
-            int _getal = 0;
+            byte _getal = 0;
 
             // Programma
 
@@ -35,7 +35,7 @@ namespace _09_Kleur_TahaM
                 Console.WriteLine("\n1. Rood\n2. Geel\n3. Groen");
                 Console.Write("\nVul een getal in: ");
 
-                _getal = int.Parse(Console.ReadLine());
+                _getal = byte.Parse(Console.ReadLine());
                 Console.Clear();
 
                 // Stap 2: Weergeef tekst

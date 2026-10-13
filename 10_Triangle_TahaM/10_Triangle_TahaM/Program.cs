@@ -19,6 +19,7 @@ namespace _10_Triangle_TahaM
             int _h1 = 0, _h2 = 0, _h3 = 0;
             int _som = 0;
             const byte _driehoek = 180;
+
             // Programma
 
             // Intro
