@@ -58,8 +58,7 @@ namespace _12_Hallo_TahaM
                         Console.Clear();
 
                         Console.WriteLine($"Hallo {_naam}");
-                        Console.WriteLine();
-                        Console.Write("Druk op enter om terug naar het keuzemenu te keren...");
+                        Console.Write("\nDruk op enter om terug naar het keuzemenu te keren...");
 
                         Console.ReadKey();
                         Console.Clear();
@@ -72,8 +71,11 @@ namespace _12_Hallo_TahaM
                     else
                     {
                         Console.Clear();
-                        Console.WriteLine("U een getal in dat niet in ons keuzemenu staat.\n");
-                        Console.Write("Druk op enter om terug te keren naar het keuzemenu...");
+                        Console.WriteLine("U gaf een getal in dat niet in ons keuzemenu staat.\n");
+                        Console.Write("Druk op enter om terug te keren naar het keuzemenu..."); 
+                        
+                        Console.ReadKey();
+                        Console.Clear();
                     }
 
                 }
