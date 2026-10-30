@@ -49,7 +49,7 @@ namespace _10_Triangle_TahaM
                 {
                     Console.Clear();
                     Console.WriteLine("Je gaf een foute tweede hoek in.\nEen hoek moet tussen 0-180 graden zijn om te kunnen kloppen... Druk op enter om af te sluiten\n");
-                    return;
+                    Console.ReadKey();
                 }
                 
                 // Stap 3: Hoek 3
