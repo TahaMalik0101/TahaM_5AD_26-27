@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("18_DelenGetallen_TahaM")]
+[assembly: AssemblyTitle("20_ModDeling_TahaM")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP")]
-[assembly: AssemblyProduct("18_DelenGetallen_TahaM")]
+[assembly: AssemblyProduct("20_ModDeling_TahaM")]
 [assembly: AssemblyCopyright("Copyright © HP 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("692628ba-d213-40d2-a7bb-3880e4cd0e53")]
+[assembly: Guid("2d063208-8084-4fea-9803-fd5d0350657d")]
 
 // Version information for an assembly consists of the following four values:
 //

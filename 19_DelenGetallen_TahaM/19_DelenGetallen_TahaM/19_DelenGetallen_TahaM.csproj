@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{692628BA-D213-40D2-A7BB-3880E4CD0E53}</ProjectGuid>
+    <ProjectGuid>{8B2A7B88-1BBA-4ACE-B530-13B0FD8573FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_18_DelenGetallen_TahaM</RootNamespace>
-    <AssemblyName>18_DelenGetallen_TahaM</AssemblyName>
+    <RootNamespace>_19_DelenGetallen_TahaM</RootNamespace>
+    <AssemblyName>19_DelenGetallen_TahaM</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
