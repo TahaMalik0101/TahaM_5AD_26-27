@@ -44,9 +44,9 @@ namespace _22_DateTimeFuncties_TahaM
             Console.WriteLine($"Het uur van vandaag: {_datum.Hour.ToString()}\n");
 
             // Dag van de week
-            Console.WriteLine($"Dag van de week: {_datum.DayOfWeek.ToString()}\n");
+            Console.Write($"Dag van de week: {_datum.DayOfWeek.ToString()} ");
             int uitkomst = Convert.ToInt32(_datum.DayOfWeek);
-            Console.WriteLine($"{uitkomst.ToString()} \n");
+            Console.WriteLine($"({uitkomst.ToString()}) \n");
 
             // Toevoegen/aftrekken van jaren, maanden, dagen, uren...
             _datum = _datum.AddYears(1).AddDays(4).AddHours(2);
@@ -55,8 +55,11 @@ namespace _22_DateTimeFuncties_TahaM
             _datum = _datum.AddYears(-1).AddDays(-4).AddHours(-2);
             Console.WriteLine($"Het uur binnen een jaar, 4 dagen en 2 uur: {_datum.ToString()} \n");
 
+            Console.WriteLine("\nDruk op enter om verder te gaan");
+            Console.ReadKey();
+
             // De verschillende ToString mogelijkheden
-            Console.WriteLine("Hier zijn de vercshillende ToString opties: ");
+            Console.WriteLine("\nHier zijn de vercshillende ToString opties: \n");
             Console.WriteLine($"De normale ToString: {_datum.ToString()} \n");
             Console.WriteLine($"De Long Date: {_datum.ToLongDateString()} \n");
             Console.WriteLine($"De Long Time: {_datum.ToLongTimeString()} \n");
@@ -72,6 +75,44 @@ namespace _22_DateTimeFuncties_TahaM
             // Je moet een variabele gebriuken van het datatype TimeSpan
             TimeSpan verschil = datum2 - _datum;
             Console.WriteLine($"{verschil.ToString()} \n");
+
+            double aantalDagen = verschil.Days;
+            double aantalDagen2 = verschil.TotalDays;
+
+            Console.WriteLine($"Days = {aantalDagen.ToString()} en totaldays = {aantalDagen2.ToString()}");
+
+            double aantalUren = verschil.Hours; // Geeft het aantal dagen afgerond
+            double aantalUren2 = verschil.TotalHours; // Kan kommagetal zijn
+
+            Console.WriteLine($"Hours = {aantalUren.ToString()} en totalhours = {aantalUren2.ToString()}");
+
+            Console.WriteLine("\nDruk op enter om verder te gaan");
+            Console.ReadKey();
+
+            // Laat gebruiker een datum ingeven
+            Console.Write("\nGeef een datum in (dd/mm/jjjj): ");
+            String datum = Console.ReadLine();
+
+            // Laat de gebruiker een tijdstip ingeven
+            Console.Write("\nGeef een bepaald tijdstip in tijdens deze dag (hh:mm): ");
+            String tijdstip = Console.ReadLine();
+
+            try
+            {
+                DateTime ingevenDatum = DateTime.Parse($"{datum}:{tijdstip}");
+
+                // Bevestiging
+                Console.WriteLine("Gelukt");
+                Console.WriteLine("\nDruk op enter om verder te gaan");
+                Console.ReadKey();
+            }
+            catch 
+            {
+                // Foutcode
+                Console.WriteLine("Er ging iets mis");
+                Console.Write("\nDruk op enter om verder te gaan...");
+                Console.ReadKey();
+            }
         }
     }
 }
